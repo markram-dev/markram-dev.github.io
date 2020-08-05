@@ -66,7 +66,7 @@ h6 {
 #header {
     z-index: 997;
     transition: all 0.5s;
-    height: 80px;
+    height: 70px;
     background: rgba(25, 28, 31, 0.8);
 }
 
@@ -77,6 +77,12 @@ h6 {
 #header.header-scrolled {
     height: 60px;
     background: rgba(25, 28, 31, 0.8);
+}
+
+#header h3 {
+    padding: 5px 25px 0 25px;
+    font-family: "Futura";
+    color: #ffb727;
 }
 
 /*--------------------------------------------------------------
@@ -423,7 +429,7 @@ section {
 
 .section-title {
     text-align: center;
-    padding: 30px 50px;
+    padding: 30px 5px;
     position: relative;
 }
 
@@ -614,17 +620,24 @@ section {
     min-height: 500px;
 }
 
-.about .skills-content {
+/*--------------------------------------------------------------
+# Skills Content Bars
+--------------------------------------------------------------*/
+.skills-content {
     margin-top: 30px;
 }
 
-.about .skills-content .progress {
+.skills-content .progress {
     height: 50px;
     display: block;
     background: none;
 }
 
-.about .skills-content .progress .skill {
+.skills #skills-bars {
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+}
+
+.skills-content .progress .skill {
     padding: 10px 0;
     margin: 0 0 6px 0;
     text-transform: uppercase;
@@ -634,16 +647,16 @@ section {
     color: #3b434a;
 }
 
-.about .skills-content .progress .skill .val {
+.skills-content .progress .skill .val {
     float: right;
     font-style: normal;
 }
 
-.about .skills-content .progress-bar-wrap {
+.skills-content .progress-bar-wrap {
     background: #e6e8eb;
 }
 
-.about .skills-content .progress-bar {
+.skills-content .progress-bar {
     width: 1px;
     height: 10px;
     transition: .9s;
