@@ -623,6 +623,10 @@ section {
 /*--------------------------------------------------------------
 # Skills Content Bars
 --------------------------------------------------------------*/
+.skills #skills-bars {
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+}
+
 .skills-content {
     margin-top: 30px;
 }
@@ -633,10 +637,6 @@ section {
     background: none;
 }
 
-.skills #skills-bars {
-    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-}
-
 .skills-content .progress .skill {
     padding: 10px 0;
     margin: 0 0 6px 0;
@@ -644,6 +644,7 @@ section {
     display: block;
     font-weight: 700;
     font-family: "Raleway", sans-serif;
+    font-size: 0.85rem;
     color: #3b434a;
 }
 
