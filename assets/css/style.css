@@ -784,7 +784,7 @@ section {
 # Software
 --------------------------------------------------------------*/
 .software {
-    padding: 180px 0;
+    padding: 100px 0;
     background: url("../img/software-bg.jpeg") no-repeat;
     background-position: center center;
     background-size: cover;
@@ -877,6 +877,7 @@ section {
 @media (min-width: 1024px) {
     .software {
         background-attachment: fixed;
+        padding: 180px 0;
     }
 }
 
